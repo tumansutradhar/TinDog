@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;600&family=Roboto:wght@100;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar start */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 230px;
+    background-color: #ff4c69;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav h1 {
+    font-size: 2.5rem;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: hsla(0, 0%, 100%, 0.500);
+    gap: 30px;
+}
+
+/* navbar end */
+
+/* hero section start */
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    background-color: #ff4c69;
+    font-family: 'Poppins', sans-serif;
+}
+
+.txt p {
+    color: white;
+    font-size: 3.8rem;
+    font-weight: bolder;
+}
+
+.iphone img {
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+.button {
+    display: flex;
+    gap: 20px;
+}
+
+.apple {
+    background-color: #353a40;
+    border: #353a40;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+}
+
+.google {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+}
+
+/* hero section end */
