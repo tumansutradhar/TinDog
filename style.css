@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 230px;
+    padding: 50px 350px;
     background-color: #ff4c69;
     color: white;
     font-family: "Poppins", sans-serif;
@@ -40,6 +40,12 @@
     height: 500px;
     background-color: #ff4c69;
     font-family: 'Poppins', sans-serif;
+}
+
+.text {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
 }
 
 .txt p {
@@ -78,10 +84,9 @@
 }
 
 /* hero section end */
-.dummy{
-    width: 100vw;
-    height: 80vh;
-    background-color: #fff;
-    position: relative;
-    z-index: 2;
-}
+
+/*  */
+
+
+
+/*  */
