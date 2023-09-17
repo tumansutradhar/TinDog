@@ -119,8 +119,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.fa-solid,
-.fas {
+.fa-solid,.fas {
     font-weight: 900;
     font-size: 90px;
     color: #ef8172;
@@ -128,7 +127,7 @@ body {
 
 /* features section end */
 
-/*  */
+/* slider section start */
 
 .slider{
     height: 500px;
@@ -162,5 +161,4 @@ body {
     font-style: italic;
 }
 
-
-/*  */
+/* slider section end */
