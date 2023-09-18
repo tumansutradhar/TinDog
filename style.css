@@ -34,6 +34,14 @@ body {
     gap: 30px;
 }
 
+.nav ul li {
+    cursor: pointer;
+}
+
+.nav ul li:hover {
+    color: rgba(0, 0, 0, 0.436);
+}
+
 /* navbar end */
 
 /* hero section start */
@@ -75,6 +83,7 @@ body {
     color: white;
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
+    cursor: pointer;
 }
 
 .google {
@@ -84,7 +93,19 @@ body {
     border-radius: 5px;
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
+    cursor: pointer;
 }
+
+.apple:hover {
+    background-color: white;
+    color: black;
+}
+
+.google:hover {
+    background-color: #353a40;
+    color: white;
+}
+
 
 /* hero section end */
 
@@ -162,13 +183,6 @@ body {
 
 /* card start */
 
-/* .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-} */
-
 .cards {
     display: flex;
     justify-content: center;
@@ -225,6 +239,7 @@ body {
     width: 110px;
     font-size: 1.25rem;
     height: 45px;
+    cursor: pointer;
 }
 
 .card3 {
@@ -236,13 +251,20 @@ body {
     padding: 33px;
 }
 
-.card3 button{
+.card3 button {
     background-color: #353a40;
     border: #353a40;
     border-radius: 5px;
     color: white;
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
+}
+
+.card1 button:hover {
+    border: 2px solid;
+    border-color: #353a40;
+    background-color: white;
+    color: black;
 }
 
 /* card end */
@@ -265,7 +287,7 @@ body {
 
 /* last line text start */
 
-/*  */
+/* footer start */
 
 footer {
     display: flex;
@@ -284,17 +306,33 @@ footer {
 
 .footericon div .fa-brands {
     font-size: 2rem;
+    /* cursor: pointer; */
 }
 
 .footericon div .fa-solid {
     font-size: 2rem;
     color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 
-.footertxt{
+.footertxt {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-/*  */
+.footertxt .fa-solid {
+    font-size: 1.25rem;
+}
+
+style attribute {
+    font-size: 1.25rem;
+    color: #ff0000;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* footer end */
