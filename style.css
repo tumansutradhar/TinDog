@@ -206,6 +206,7 @@ body {
 .card1 {
     display: flex;
     border: 1px solid;
+    border-color: gray;
     border-radius: 5px;
     width: 470px;
     height: 360px;
@@ -215,7 +216,7 @@ body {
 }
 
 .card1 .card2 {
-    background-color: gray;
+    background-color: #80808052;
     border-radius: 4px 4px 0 0;
 }
 
@@ -227,6 +228,7 @@ body {
     font-size: 2rem;
     font-weight: bolder;
     border-bottom: 1px solid;
+    border-color: gray;
     width: 470px;
 }
 
@@ -306,13 +308,15 @@ footer {
 
 .footericon div .fa-brands {
     font-size: 2rem;
-    /* cursor: pointer; */
 }
 
 .footericon div .fa-solid {
     font-size: 2rem;
     color: rgb(0, 0, 0);
-    cursor: pointer;
+}
+
+.footericon div .fa-brands{
+    font-size: 2rem;
 }
 
 .footertxt {
