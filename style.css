@@ -132,7 +132,7 @@ body {
 
 .slider {
     height: 500px;
-    background-color: #ef8172;
+    background-color: #ff4c69;
 }
 
 .sliderbar {
@@ -197,15 +197,19 @@ body {
     height: 360px;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-between;
 }
 
-.card1 div{
+.card1 .card2 {
     background-color: gray;
+    border-radius: 4px 4px 0 0;
 }
 
 .card1 h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
     font-size: 2rem;
     font-weight: bolder;
     border-bottom: 1px solid;
@@ -223,4 +227,74 @@ body {
     height: 45px;
 }
 
+.card3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 33px;
+}
+
+.card3 button{
+    background-color: #353a40;
+    border: #353a40;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+}
+
 /* card end */
+
+/* last line text start */
+
+.lastlinetxt {
+    display: flex;
+    background-color: #ff4c69;
+    height: 255px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastlinetxt h3 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* last line text start */
+
+/*  */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 245px;
+    gap: 20px;
+}
+
+.footericon {
+    display: flex;
+    gap: 30px;
+}
+
+.footericon div .fa-brands {
+    font-size: 2rem;
+}
+
+.footericon div .fa-solid {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.footertxt{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/*  */
